@@ -24,7 +24,7 @@ import static android.widget.Toast.makeText;
 
      boolean gameActive = true;
 
-     public void dropIn(View view) {
+     public void dropIn(View view) {        // function trigeers when the image is clicked
 
          ImageView counter = (ImageView) view;
 
@@ -89,7 +89,7 @@ import static android.widget.Toast.makeText;
      }
 
 
-     public void playAgain(View view){
+     public void playAgain(View view){          // function to restart the game
 
          Button playAgainButton = (Button) findViewById(R.id.playAgainButton);
 
